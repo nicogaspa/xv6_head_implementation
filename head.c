@@ -134,7 +134,7 @@ int main(int argc, char *argv[]){
             if(atoi(argv[++i]) == 0){
               error_head(4, argv[i]);
             }
-            n = atoi(argv[++i]);
+            n = atoi(argv[i]);
             moden=2;
             break;
           case 'v':
